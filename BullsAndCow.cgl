@@ -1,0 +1,26 @@
+Functions called:
+ fflush (4 times)
+ delete (11 times)
+ free (7 times)
+ vsnprintf (10 times)
+ time (1 times)
+ new (11 times)
+ SysReallocMem (75 times)
+ SysFreeMem (2032 times)
+ lstrlenA (1 times)
+ lstrcpynA (3 times)
+ memset (19 times)
+ SysGetMem (2033 times)
+ calloc (1 times)
+ strlen (79 times)
+ realloc (1 times)
+ strdup (1 times)
+ malloc (4 times)
+ memcpy (2 times)
+Resource types used:
+ object (11 allocs, 11 max)
+ memory block (2040 allocs, 550 max)
+Modules used:
+ 003FFFB4 11/29/2015 10:30:00 C:\Users\acer\Desktop\Новая папка\Быки и коровы
+ 3\BullsAndCow.exe
+==========================================

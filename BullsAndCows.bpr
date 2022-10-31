@@ -3,16 +3,16 @@
 <PROJECT>
   <MACROS>
     <VERSION value="BCB.06.00"/>
-    <PROJECT value="WordsBulls.exe"/>
-    <OBJFILES value="WordsBulls.obj CodeWords.obj DoublyConnectedList.obj"/>
-    <RESFILES value="WordsBulls.res"/>
+    <PROJECT value="BullsAndCows.exe"/>
+    <OBJFILES value="BullsAndCows.obj Main.obj TheBullsAndCows.obj"/>
+    <RESFILES value="BullsAndCows.res"/>
     <IDLFILES value=""/>
     <IDLGENFILES value=""/>
     <DEFFILE value=""/>
-    <RESDEPEN value="$(RESFILES) CodeWords.dfm"/>
+    <RESDEPEN value="$(RESFILES) Main.dfm"/>
     <LIBFILES value=""/>
-    <LIBRARIES value="vclx.lib bcbsmp.lib rtl.lib vcl.lib"/>
-    <SPARELIBS value="vcl.lib rtl.lib bcbsmp.lib vclx.lib"/>
+    <LIBRARIES value="visualclx.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib visualclx.lib"/>
     <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
       vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
       teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
@@ -29,49 +29,49 @@
     <LINKER value="ilink32"/>
     <USERDEFINES value="_DEBUG"/>
     <SYSDEFINES value="NO_STRICT"/>
-    <MAINSOURCE value="WordsBulls.cpp"/>
-    <INCLUDEPATH value="&quot;C:\Program Files\Borland\CBuilder6\Bin&quot;;&quot;C:\Documents and Settings\Алекс\Мои документы\Билдер\Быки и коровы\Буквы слова&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
-    <LIBPATH value="&quot;C:\Program Files\Borland\CBuilder6\Bin&quot;;&quot;C:\Documents and Settings\Алекс\Мои документы\Билдер\Быки и коровы\Буквы слова&quot;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <MAINSOURCE value="BullsAndCows.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files\Borland\CBuilder6\Bin&quot;;&quot;C:\Documents and Settings\Алекс\Мои документы\Билдер\Быки и коровы&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;C:\Program Files\Borland\CBuilder6\Bin&quot;;&quot;C:\Documents and Settings\Алекс\Мои документы\Билдер\Быки и коровы&quot;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
     <WARNINGS value="-w-par"/>
     <OTHERFILES value=""/>
   </MACROS>
   <OPTIONS>
     <IDLCFLAGS value="-I&quot;C:\Program Files\Borland\CBuilder6\Bin&quot; 
-      -I&quot;C:\Documents and Settings\Алекс\Мои документы\Билдер\Быки и коровы\Буквы слова&quot; 
+      -I&quot;C:\Documents and Settings\Алекс\Мои документы\Билдер\Быки и коровы&quot; 
       -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
-    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
-      -tW -tWM"/>
+    <CFLAG1 value="-vGc -vGt -vGd -Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k 
+      -y -v -vi- -c -tW -tWM"/>
     <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
     <RFLAGS value=""/>
     <AFLAGS value="/mx /w2 /zi"/>
-    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -v"/>
     <OTHERFILES value=""/>
   </OPTIONS>
   <LINKER>
     <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
     <ALLRES value="$(RESFILES)"/>
-    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <ALLLIB value="cg32.lib $(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
     <OTHERFILES value=""/>
   </LINKER>
   <FILELIST>
-      <FILE FILENAME="WordsBulls.res" FORMNAME="" UNITNAME="WordsBulls.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
-      <FILE FILENAME="WordsBulls.cpp" FORMNAME="" UNITNAME="WordsBulls" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
-      <FILE FILENAME="CodeWords.cpp" FORMNAME="Form1" UNITNAME="CodeWords" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
-      <FILE FILENAME="DoublyConnectedList.cpp" FORMNAME="" UNITNAME="DoublyConnectedList" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BullsAndCows.res" FORMNAME="" UNITNAME="BullsAndCows.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BullsAndCows.cpp" FORMNAME="" UNITNAME="BullsAndCows" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Main.cpp" FORMNAME="MainForm" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TheBullsAndCows.cpp" FORMNAME="" UNITNAME="TheBullsAndCows" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
   </FILELIST>
   <BUILDTOOLS>
   </BUILDTOOLS>
 
   <IDEOPTIONS>
 [Version Info]
-IncludeVerInfo=0
+IncludeVerInfo=1
 AutoIncBuild=0
-MajorVer=1
-MinorVer=0
-Release=0
-Build=0
+MajorVer=0
+MinorVer=1
+Release=1
+Build=1
 Debug=0
-PreRelease=0
+PreRelease=1
 Special=0
 Private=0
 DLL=0
@@ -80,10 +80,10 @@ CodePage=1251
 
 [Version Info Keys]
 CompanyName=
-FileDescription=
-FileVersion=1.0.0.0
-InternalName=
-LegalCopyright=
+FileDescription=Быки и коровы
+FileVersion=0.1.1.1
+InternalName=int
+LegalCopyright=cop
 LegalTrademarks=
 OriginalFilename=
 ProductName=
@@ -108,7 +108,7 @@ RemoteDebug=0
 [Compiler]
 ShowInfoMsgs=0
 LinkDebugVcl=0
-LinkCGLIB=0
+LinkCGLIB=1
 
 [CORBA]
 AddServerUnit=1
