@@ -1,0 +1,117 @@
+Functions called:
+ delete (35 times)
+ memset (8 times)
+ SysReallocMem (33 times)
+ SysFreeMem (664 times)
+ SysGetMem (672 times)
+ realloc (1 times)
+ memcpy (1 times)
+ delete[] (2 times)
+ free (26 times)
+ new[] (14 times)
+ new (40 times)
+ calloc (5 times)
+ malloc (20 times)
+Resource types used:
+ object array (14 allocs, 13 max)
+ object (40 allocs, 28 max)
+ memory block (698 allocs, 357 max)
+Modules used:
+ 00400000 04/28/2015 13:18:10 C:\Documents and Settings\Алекс\Мои
+ документы\Билдер\Быки и коровы\Полный перебор\ProjectBULLS.exe
+ 01050000 07/08/2010 10:08:10 C:\INSTALL\Vista Start Menu\VistaStartMenu.dll
+ 01190000 02/01/2002 16:00:00 C:\PROGRA~1\Borland\CBUILD~1\Bin\BORLNDMM.DLL
+ 0CD00000 02/01/2002 16:00:00 C:\PROGRA~1\Borland\CBUILD~1\Bin\CG32.DLL
+ 32600000 02/01/2002 16:00:00 C:\PROGRA~1\Borland\CBUILD~1\Bin\CC3260MT.DLL
+ 40000000 02/01/2002 16:00:00 C:\WINDOWS\system32\rtl60.bpl
+ 400B0000 02/01/2002 16:00:00 C:\WINDOWS\system32\vcl60.bpl
+ 5B260000 06/09/2008 19:00:00 C:\WINDOWS\system32\uxtheme.dll
+ 5D5B0000 06/09/2008 19:00:00 C:\WINDOWS\system32\comctl32.dll
+ 62F00000 06/09/2008 19:00:00 C:\WINDOWS\system32\LPK.DLL
+ 71A80000 06/09/2008 19:00:00 C:\WINDOWS\system32\WS2HELP.dll
+ 71A90000 06/09/2008 19:00:00 C:\WINDOWS\system32\WS2_32.dll
+ 71AB0000 06/09/2008 19:00:00 C:\WINDOWS\system32\wsock32.dll
+ 71B00000 06/09/2008 19:00:00 C:\WINDOWS\system32\mpr.dll
+ 72FC0000 06/09/2008 19:00:00 C:\WINDOWS\system32\winspool.drv
+ 746E0000 06/09/2008 19:00:00 C:\WINDOWS\system32\MSCTF.dll
+ 75310000 06/09/2008 19:00:00 C:\WINDOWS\system32\msctfime.ime
+ 75540000 06/09/2008 19:00:00 C:\WINDOWS\system32\USP10.dll
+ 76360000 06/09/2008 19:00:00 C:\WINDOWS\system32\IMM32.DLL
+ 76380000 06/09/2008 19:00:00 C:\WINDOWS\system32\comdlg32.dll
+ 77110000 06/09/2008 19:00:00 C:\WINDOWS\system32\oleaut32.dll
+ 773C0000 06/09/2008 19:00:00
+ C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.
+2600.5512_x-ww_35d4ce83\comctl32.dll
+ 774D0000 06/09/2008 19:00:00 C:\WINDOWS\system32\ole32.dll
+ 77BF0000 06/09/2008 19:00:00 C:\WINDOWS\system32\version.dll
+ 77C00000 06/09/2008 19:00:00 C:\WINDOWS\system32\msvcrt.dll
+ 77DC0000 06/09/2008 19:00:00 C:\WINDOWS\system32\advapi32.dll
+ 77E70000 06/09/2008 19:00:00 C:\WINDOWS\system32\RPCRT4.dll
+ 77F10000 10/23/2008 19:42:24 C:\WINDOWS\system32\GDI32.dll
+ 77F60000 06/09/2008 19:00:00 C:\WINDOWS\system32\SHLWAPI.dll
+ 77FE0000 06/09/2008 19:00:00 C:\WINDOWS\system32\Secur32.dll
+ 7C800000 06/09/2008 19:00:00 C:\WINDOWS\system32\kernel32.dll
+ 7C900000 06/09/2008 19:00:00 C:\WINDOWS\system32\ntdll.dll
+ 7C9C0000 06/09/2008 19:00:00 C:\WINDOWS\system32\SHELL32.dll
+ 7DFC0000 06/09/2008 19:00:00 C:\WINDOWS\system32\oledlg.dll
+ 7E360000 06/09/2008 19:00:00 C:\WINDOWS\system32\user32.dll
+==========================================
+Functions called:
+ delete (35 times)
+ vsnprintf (3180 times)
+ memset (18 times)
+ SysReallocMem (66 times)
+ SysFreeMem (5797 times)
+ SysGetMem (5805 times)
+ realloc (1 times)
+ memcpy (1 times)
+ delete[] (3 times)
+ free (26 times)
+ new[] (15 times)
+ new (40 times)
+ calloc (5 times)
+ malloc (20 times)
+Resource types used:
+ object array (15 allocs, 14 max)
+ object (40 allocs, 28 max)
+ memory block (5831 allocs, 5133 max)
+Modules used:
+ 00400000 04/28/2015 13:18:10 C:\Documents and Settings\Алекс\Мои
+ документы\Билдер\Быки и коровы\Полный перебор\ProjectBULLS.exe
+ 01050000 07/08/2010 10:08:10 C:\INSTALL\Vista Start Menu\VistaStartMenu.dll
+ 01190000 02/01/2002 16:00:00 C:\PROGRA~1\Borland\CBUILD~1\Bin\BORLNDMM.DLL
+ 0CD00000 02/01/2002 16:00:00 C:\PROGRA~1\Borland\CBUILD~1\Bin\CG32.DLL
+ 32600000 02/01/2002 16:00:00 C:\PROGRA~1\Borland\CBUILD~1\Bin\CC3260MT.DLL
+ 40000000 02/01/2002 16:00:00 C:\WINDOWS\system32\rtl60.bpl
+ 400B0000 02/01/2002 16:00:00 C:\WINDOWS\system32\vcl60.bpl
+ 5B260000 06/09/2008 19:00:00 C:\WINDOWS\system32\uxtheme.dll
+ 5D5B0000 06/09/2008 19:00:00 C:\WINDOWS\system32\comctl32.dll
+ 62F00000 06/09/2008 19:00:00 C:\WINDOWS\system32\LPK.DLL
+ 71A80000 06/09/2008 19:00:00 C:\WINDOWS\system32\WS2HELP.dll
+ 71A90000 06/09/2008 19:00:00 C:\WINDOWS\system32\WS2_32.dll
+ 71AB0000 06/09/2008 19:00:00 C:\WINDOWS\system32\wsock32.dll
+ 71B00000 06/09/2008 19:00:00 C:\WINDOWS\system32\mpr.dll
+ 72FC0000 06/09/2008 19:00:00 C:\WINDOWS\system32\winspool.drv
+ 746E0000 06/09/2008 19:00:00 C:\WINDOWS\system32\MSCTF.dll
+ 75310000 06/09/2008 19:00:00 C:\WINDOWS\system32\msctfime.ime
+ 75540000 06/09/2008 19:00:00 C:\WINDOWS\system32\USP10.dll
+ 76360000 06/09/2008 19:00:00 C:\WINDOWS\system32\IMM32.DLL
+ 76380000 06/09/2008 19:00:00 C:\WINDOWS\system32\comdlg32.dll
+ 77110000 06/09/2008 19:00:00 C:\WINDOWS\system32\oleaut32.dll
+ 773C0000 06/09/2008 19:00:00
+ C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.
+2600.5512_x-ww_35d4ce83\comctl32.dll
+ 774D0000 06/09/2008 19:00:00 C:\WINDOWS\system32\ole32.dll
+ 77BF0000 06/09/2008 19:00:00 C:\WINDOWS\system32\version.dll
+ 77C00000 06/09/2008 19:00:00 C:\WINDOWS\system32\msvcrt.dll
+ 77DC0000 06/09/2008 19:00:00 C:\WINDOWS\system32\advapi32.dll
+ 77E70000 06/09/2008 19:00:00 C:\WINDOWS\system32\RPCRT4.dll
+ 77F10000 10/23/2008 19:42:24 C:\WINDOWS\system32\GDI32.dll
+ 77F60000 06/09/2008 19:00:00 C:\WINDOWS\system32\SHLWAPI.dll
+ 77FE0000 06/09/2008 19:00:00 C:\WINDOWS\system32\Secur32.dll
+ 7C800000 06/09/2008 19:00:00 C:\WINDOWS\system32\kernel32.dll
+ 7C900000 06/09/2008 19:00:00 C:\WINDOWS\system32\ntdll.dll
+ 7C9C0000 06/09/2008 19:00:00 C:\WINDOWS\system32\SHELL32.dll
+ 7DFC0000 06/09/2008 19:00:00 C:\WINDOWS\system32\oledlg.dll
+ 7E360000 06/09/2008 19:00:00 C:\WINDOWS\system32\user32.dll
+==========================================
