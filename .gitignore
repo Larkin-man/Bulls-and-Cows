@@ -69,3 +69,5 @@ __recovery/
 modules/
 del.bat
 *.cgl
+Debug/
+Release/
